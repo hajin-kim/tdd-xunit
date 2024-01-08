@@ -8,7 +8,3 @@ class WasRun(TestCase):
 
     def testMethod(self):
         self.wasRun = True
-
-    def run(self):
-        method = getattr(self, self.name)
-        method()
